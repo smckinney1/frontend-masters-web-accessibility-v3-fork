@@ -2,9 +2,9 @@ import { Dispatch, useState, useRef } from 'react';
 import { HStack } from '@chakra-ui/react';
 
 import ProductBuyBoxVariantSelector from './ProductBuyBoxVariantSelector';
-import { IconStarRating, IconTag, IconMinus, IconPlus } from './Icons';
+import { IconStarRating, IconTag, IconMinus, IconPlus } from '../../components/Icons';
 
-import type { Product } from '../types';
+import type { Product } from '../../types';
 
 type ProductDetailsProps = {
 	product: Product;
