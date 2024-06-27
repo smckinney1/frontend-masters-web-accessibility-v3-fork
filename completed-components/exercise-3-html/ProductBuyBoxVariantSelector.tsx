@@ -41,7 +41,7 @@ const ProductBuyBoxVariantSelector = ({ Product }) => {
 			<div className="flex flex-col">
 				<div className="mt-6 mb-2">
 					<div className="flex">
-						<p className="font-bold mb-0 text-sm">Size:</p>
+						<h2 className="font-bold mb-0 text-sm">Size:</h2>
 					</div>
 				</div>
 				<div data-id="sizeTile" role="radiogroup" className="flex flex-wrap">
