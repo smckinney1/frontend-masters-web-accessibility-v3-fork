@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { IconButton } from '@chakra-ui/react';
 
-import { IconLeftArrow, IconRightArrow, IconHamburgerMenu, IconShoppingCart } from './Icons';
+import { IconLeftArrow, IconRightArrow, IconHamburgerMenu, IconShoppingCart } from '../../components/Icons';
 
 type BannerProps = {
 	shouldAnimate?: boolean;
